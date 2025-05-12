@@ -1,0 +1,27 @@
+---
+title: "Mapping Street Trees"
+---
+
+# Street Trees in NYC:
+
+#### Based on data from the NYC Parks Department's 2016 Street Tree Census and the 2020 U.S. Census Bureau Income Data
+
+### This map shows the density of street trees in NYC, and the poorest census tracts are highlighted in blue.
+
+The map can also be accessed [**here**](https://hunter.maps.arcgis.com/apps/dashboards/b12f5307e26c4ba59703ee841a574670)
+
+```{=html}
+<!-- Add script to the <head> of your page to load the embeddable map component -->
+<script type="module" src="https://js.arcgis.com/embeddable-components/4.32/arcgis-embeddable-components.esm.js"></script>
+
+<!-- Add custom element to <body> of your page -->
+<arcgis-embedded-map 
+  style="height:600px;width:700px;" 
+  item-id="1526bbbb48ce4558b6ab4b2753fe4fbf" 
+  theme="light" 
+  heading-enabled 
+  legend-enabled 
+  share-enabled 
+  portal-url="https://hunter.maps.arcgis.com">
+</arcgis-embedded-map>
+```
