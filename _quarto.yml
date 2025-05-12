@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "Street Trees in NYC"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Importance of Trees
+      - href: tree_map.qmd
+        text: Tree Map
+      - href: get_involved.qmd
+        text: Get Involved
+      - about.qmd
+      
+
+format:
+  html:
+    theme: minty
+    font-family: Georgia, serif;
+    css: styles.css
+    toc: true
+
+editor: visual
+
